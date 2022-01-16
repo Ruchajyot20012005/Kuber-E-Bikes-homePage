@@ -1,0 +1,55 @@
+.head {
+  font-family: "Lato", sans-serif;
+  height: 88vh;
+  display: flex;
+  flex-wrap: wrap;
+  background: url("../../assets/bg1.jfif") no-repeat center center / cover;
+  justify-content: space-evenly;
+  color: white;
+  object-fit: contain;
+  padding: 0.5rem;
+  .left-section {
+    width: 50%;
+    height: 100%;
+    h1 {
+      font-size: 4rem;
+    }
+  }
+  .right-section {
+    width: 50%;
+    display: flex;
+    span {
+      height: 20rem;
+      width: 15rem;
+      margin: 0.5rem;
+    }
+    .img1 {
+      background: url("../../assets/juniper.png") no-repeat center center /
+        cover;
+    }
+    .img2 {
+      background: url("../../assets/vamos.png") no-repeat center center / cover;
+      align-self: center;
+    }
+    .img3 {
+      background: url("../../assets/festiva.png") no-repeat center center /
+        cover;
+      align-self: flex-end;
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .head {
+    .left-section {
+      width: 100%;
+      height: auto;
+      h1 {
+        font-size: 2rem;
+      }
+    }
+    .right-section {
+      width: 100%;
+    }
+  }
+}

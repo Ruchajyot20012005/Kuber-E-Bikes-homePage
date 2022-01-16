@@ -1,0 +1,14 @@
+.features {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  .heading {
+    margin: 3rem 0;
+  }
+  .feature-items {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+  }
+}

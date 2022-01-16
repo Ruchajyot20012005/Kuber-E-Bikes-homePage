@@ -1,0 +1,21 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 50%;
+    background: linear-gradient(to right, #53ba0c, #62df0d, #6ffb0f);
+    box-shadow: 5px 5px 10px rgba(90, 90, 90, 0.2);
+  }
+  .name {
+    margin-top: 1rem;
+    color: #333;
+    font-weight: 600;
+    font-size: 1.25rem;
+  }
+}

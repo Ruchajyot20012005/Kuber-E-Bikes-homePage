@@ -1,0 +1,47 @@
+.about {
+  color: white;
+  padding: 2rem 0;
+  background: url("../../assets/bg2.jpg") no-repeat center center / cover;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+  .heading {
+    margin: 3rem 0;
+  }
+  .describe {
+    width: 75%;
+    margin: auto;
+    text-align: center;
+    .why-we {
+      h4 {
+        background: linear-gradient(to right, #53ba0c, #62df0d, #6ffb0f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      margin-top: 4rem;
+      ul {
+        li {
+          font-size: 0.9rem;
+          display: inline;
+          margin-inline-end: 2rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .about {
+    .describe {
+      width: 100%;
+    }
+    .why-we {
+      ul {
+        list-style: none;
+        li {
+          display: block !important;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
